@@ -1,38 +1,38 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Layers, Zap, Shield, Infinity, Code, Smartphone } from 'lucide-react';
+import { Network, Cpu, ShieldAlert, Workflow, Fingerprint, LineChart } from 'lucide-react';
 
 const features = [
   {
-    icon: <Zap className="h-6 w-6 text-primary" />,
-    title: 'Lightning Fast',
-    description: 'Optimized for speed and performance, powered by Next.js App Router and React Server Components.',
+    icon: <Cpu className="h-6 w-6 text-background" />,
+    title: 'Distributed Neural Processing',
+    description: 'Leverage our global edge network to process terabytes of data with near-zero latency worldwide.',
   },
   {
-    icon: <Shield className="h-6 w-6 text-primary" />,
-    title: 'Enterprise Security',
-    description: 'Built-in security best practices, ready for compliance and rigid data protection standards.',
+    icon: <ShieldAlert className="h-6 w-6 text-background" />,
+    title: 'Predictive Threat Detection',
+    description: 'Machine learning algorithms proactively quarantine anomalies before they hit your core databases.',
   },
   {
-    icon: <Layers className="h-6 w-6 text-primary" />,
-    title: 'Highly Modular',
-    description: 'Change anything. Component-based architecture allows complete customization for each client.',
+    icon: <Network className="h-6 w-6 text-background" />,
+    title: 'Autonomic Orchestration',
+    description: 'Dynamic allocation of computes precisely when you need it. Let the AI manage scaling without DevOps.',
   },
   {
-    icon: <Smartphone className="h-6 w-6 text-primary" />,
-    title: 'Fully Responsive',
-    description: 'Looks perfect on every device out of the box. Fluid typography and responsive layout.',
+    icon: <LineChart className="h-6 w-6 text-background" />,
+    title: 'Real-time Telemetry',
+    description: 'Monitor every single event across your clusters in real-time with sub-millisecond precision.',
   },
   {
-    icon: <Code className="h-6 w-6 text-primary" />,
-    title: 'Developer Friendly',
-    description: 'Clean code, TypeScript autocomplete, and extensive comments make it a joy to work with.',
+    icon: <Workflow className="h-6 w-6 text-background" />,
+    title: 'Zero-Touch Integrations',
+    description: 'Seamlessly plug into your existing data lakes via native connectors and intelligent APIs.',
   },
   {
-    icon: <Infinity className="h-6 w-6 text-primary" />,
-    title: 'Infinite Scalability',
-    description: 'From day 1 to day 1000, the architecture is designed to grow with your business needs.',
+    icon: <Fingerprint className="h-6 w-6 text-background" />,
+    title: 'Granular Access Control',
+    description: 'Implement complex RBAC schemas and cryptographic identity proofs for every data shard payload.',
   },
 ];
 
@@ -59,12 +59,12 @@ export function Features() {
       
       <div className="container mx-auto px-4 sm:px-8">
         <div className="mx-auto max-w-2xl lg:text-center space-y-4">
-          <h2 className="text-foreground/60 font-medium tracking-widest text-xs uppercase">Core Capabilities</h2>
+          <h2 className="text-foreground/60 font-medium tracking-widest text-xs uppercase">Platform Architecture</h2>
           <p className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl text-gradient text-balance">
-            Everything you need to ship world-class software
+            Designed for uncompromising performance
           </p>
           <p className="mt-4 text-lg leading-8 text-muted-foreground">
-            We handled the complex infrastructure entirely so you can focus on what matters: delivering value to your users quickly and securely.
+            We handled the complex infrastructure entirely so you can focus on building intelligent applications that redefine your industry.
           </p>
         </div>
         

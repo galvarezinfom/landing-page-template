@@ -24,8 +24,8 @@ export function Header() {
           <div className="flex items-center gap-8">
             <Link href="/" className="flex items-center space-x-2 rounded-full outline-offset-4 focus-visible:outline-2 focus-visible:outline-primary">
               <span className="font-extrabold text-lg text-foreground tracking-tight flex items-center gap-2">
-                <div className="h-6 w-6 rounded-md bg-foreground text-background flex items-center justify-center">E</div>
-                Enterprise
+                <div className="h-6 w-6 rounded-md bg-foreground text-background flex items-center justify-center">N</div>
+                Nexus
               </span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-muted-foreground">
@@ -54,7 +54,7 @@ export function Header() {
                <ThemeToggle />
             </div>
             <Link
-              href="/login"
+              href="/signup"
               className="hidden sm:inline-flex h-9 items-center justify-center rounded-full bg-foreground px-5 text-sm font-semibold text-background shadow-md transition-all hover:bg-foreground/90 hover:scale-105 active:scale-95"
             >
               Get Started

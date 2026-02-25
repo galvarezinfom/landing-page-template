@@ -19,7 +19,7 @@ export function Hero() {
            className="inline-flex items-center gap-2 rounded-full border border-border/50 bg-background/50 px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-muted-foreground backdrop-blur-md shadow-sm"
         >
           <Sparkles className="h-3 w-3 text-foreground" />
-          <span>The New Standard is Here</span>
+          <span>Nexus Data Platform v3.0</span>
         </motion.div>
 
         <motion.h1
@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1, ease: [0.21, 0.47, 0.32, 0.98] }}
           className="max-w-5xl text-5xl font-extrabold tracking-tighter sm:text-7xl md:text-8xl text-gradient pb-2"
         >
-          Engineered for <br className="hidden md:block" /> Enterprise Scale.
+          Unleash the Power <br className="hidden md:block" /> of Predictive AI.
         </motion.h1>
 
         <motion.p
@@ -37,7 +37,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="max-w-2xl text-lg text-muted-foreground sm:text-xl leading-relaxed mx-auto font-medium"
         >
-          A meticulously crafted architecture. Uncompromising performance, secure by default, and ready to scale from zero to millions of users.
+          Transform raw data into actionable insights in milliseconds. Nexus connects your entire infrastructure to our advanced neural networks securely.
         </motion.p>
 
         <motion.div
@@ -51,7 +51,7 @@ export function Hero() {
             className="group relative inline-flex h-12 sm:h-14 items-center justify-center rounded-full bg-foreground px-8 text-sm sm:text-base font-semibold text-background shadow-lg transition-all hover:bg-foreground/90 hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 overflow-hidden"
           >
             <span className="relative z-10 flex items-center">
-               Start Building
+               Start Free Trial
                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </span>
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-[150%] skew-x-[-20deg] group-hover:animate-[shimmer_1.5s_infinite]"></div>
@@ -60,7 +60,7 @@ export function Hero() {
             href="#demo"
             className="inline-flex h-12 sm:h-14 items-center justify-center rounded-full border border-border/60 bg-background/50 backdrop-blur-md px-8 text-sm sm:text-base font-medium shadow-sm transition-all hover:bg-accent hover:text-accent-foreground hover:scale-[1.02] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
-            Contact Sales
+            Book a Demo
           </Link>
         </motion.div>
 
@@ -82,7 +82,7 @@ export function Hero() {
                    <div className="w-3 h-3 rounded-full bg-green-500/80"></div>
                  </div>
                  <div className="mx-auto w-48 h-5 rounded-md bg-background/80 border border-border/50 text-[10px] text-muted-foreground flex items-center justify-center font-mono">
-                   workspace.enterprise.io
+                   nexus.analytical.app
                  </div>
                </div>
                
@@ -98,21 +98,21 @@ export function Hero() {
                   
                   <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4 auto-rows-min">
                      {/* BENTO CARDS */}
-                     <div className="col-span-1 rounded-xl border border-border/40 bg-card p-4 shadow-sm h-32 flex flex-col justify-between hover:border-foreground/20 transition-colors">
-                        <div className="flex items-center gap-2"><Activity className="w-4 h-4 text-foreground/60"/> <span className="text-xs font-semibold">Active Sessions</span></div>
-                        <div className="text-3xl font-bold tracking-tighter">24,592</div>
+                     <div className="col-span-1 border-border/40 bg-card p-4 h-32 flex flex-col justify-between hover:border-foreground/20 transition-colors rounded-2xl relative overflow-hidden group hover-lift border">
+                        <div className="flex items-center gap-2"><Activity className="w-4 h-4 text-foreground/60"/> <span className="text-xs font-semibold">Inferences / sec</span></div>
+                        <div className="text-3xl font-bold tracking-tighter text-foreground">1,245.9</div>
                      </div>
-                     <div className="col-span-1 rounded-xl border border-border/40 bg-card p-4 shadow-sm h-32 flex flex-col justify-between hover:border-foreground/20 transition-colors">
-                        <div className="flex items-center gap-2"><ShieldCheck className="w-4 h-4 text-foreground/60"/> <span className="text-xs font-semibold">Threats Blocked</span></div>
-                        <div className="text-3xl font-bold tracking-tighter">1,048</div>
+                     <div className="col-span-1 border border-border/40 bg-card p-4 shadow-sm h-32 flex flex-col justify-between hover:border-foreground/20 transition-colors rounded-2xl relative overflow-hidden group hover-lift">
+                        <div className="flex items-center gap-2"><Database className="w-4 h-4 text-foreground/60"/> <span className="text-xs font-semibold">Data Streams</span></div>
+                        <div className="text-3xl font-bold tracking-tighter text-foreground">14 Active</div>
                      </div>
-                     <div className="col-span-1 sm:col-span-2 rounded-xl border border-border/40 bg-card p-4 shadow-sm h-48 sm:h-auto flex flex-col hover:border-foreground/20 transition-colors relative overflow-hidden">
-                        <div className="flex items-center gap-2 mb-4"><Zap className="w-4 h-4 text-foreground/60"/> <span className="text-xs font-semibold">Traffic Pulse</span></div>
+                     <div className="col-span-1 sm:col-span-2 border border-border/40 bg-card p-4 shadow-sm h-48 sm:h-auto flex flex-col hover:border-foreground/20 transition-colors relative overflow-hidden rounded-2xl group hover-lift">
+                        <div className="flex items-center gap-2 mb-4"><Zap className="w-4 h-4 text-foreground/60"/> <span className="text-xs font-semibold">Model Accuracy Pulse</span></div>
                         {/* Mock Graph Lines */}
                         <div className="flex-1 border-b border-l border-border/40 relative">
                            <div className="absolute inset-0 bg-gradient-to-t from-foreground/5 to-transparent"></div>
                            <svg viewBox="0 0 100 100" className="w-[110%] h-[110%] absolute bottom-0 -left-2 stroke-foreground/40 stroke-2 fill-none preserveAspectRatio='none'">
-                              <path d="M0,80 Q25,50 50,70 T100,20"/>
+                              <path d="M0,80 Q10,75 20,60 T40,40 T60,50 T80,20 T100,10"/>
                            </svg>
                         </div>
                      </div>

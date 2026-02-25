@@ -5,43 +5,43 @@ import { motion } from 'framer-motion';
 
 const plans = [
   {
-    name: "Starter",
+    name: "Developer",
     price: "Free",
-    description: "Perfect for exploring the features and small personal projects.",
+    description: "Perfect for exploring the Nexus Engine and building proof-of-concepts.",
     features: [
-      "1 User",
-      "Core Features",
-      "Community Support",
-      "Basic Analytics"
+      "100K API Requests / mo",
+      "Core Data Connectors",
+      "Community Discord Support",
+      "Standard Latency"
     ],
     cta: "Start for free",
     popular: false
   },
   {
-    name: "Pro",
-    price: "$29",
+    name: "Startup",
+    price: "$299",
     period: "/month",
-    description: "Ideal for growing teams needing advanced functionality.",
+    description: "Ideal for growing startups needing advanced predictive capabilities.",
     features: [
-      "Up to 5 Users",
-      "All Pro Features",
+      "5M API Requests / mo",
+      "Real-time Data Streams",
+      "Proactive Anomaly Detection",
       "Priority Email Support",
-      "Advanced Analytics",
-      "Custom Domains"
+      "Low Latency Edge Processing"
     ],
-    cta: "Get Pro Tracker",
+    cta: "Start 14-day trial",
     popular: true
   },
   {
     name: "Enterprise",
     price: "Custom",
-    description: "For large scale organizations requiring maximum control.",
+    description: "For large scale organizations requiring on-premise deployments or maximum control.",
     features: [
-      "Unlimited Users",
-      "Everything in Pro",
-      "24/7 Phone Support",
-      "SSO & Security",
-      "Dedicated Account Manager"
+      "Unlimited Queries",
+      "Custom Model Training",
+      "On-Premise or VPC Deployment",
+      "SOC-2 & HIPAA Compliance",
+      "Dedicated Solutions Architect"
     ],
     cta: "Contact Sales",
     popular: false
